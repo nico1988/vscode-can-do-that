@@ -1,9 +1,9 @@
 const axios = require("axios");
 const API_BASE = "https://lifx-lamp-api.azurewebsites.net/api";
-
+//#region 
 const App = {
   /**
-   * Initalize the page and websocket connection
+   * Initialize the page and websocket connection
    */
   async init() {
     const result = axios
@@ -19,5 +19,5 @@ const App = {
       });
   }
 };
-
+//#endregion
 App.init();

@@ -22,6 +22,7 @@ class App {
       // update the bulb color
       bulb.style = `fill: #${currentColor};`;
       currentColor.textContent = `#${currentColor}`;
+      console.blog('111');
     });
 
     // start the websocket connection
